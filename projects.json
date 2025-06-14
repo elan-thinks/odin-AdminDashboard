@@ -1,0 +1,68 @@
+[
+    {
+      "projectName": "PixelDraw",
+      "description": "Water reminder app for plant lovers that helps you keep track of each plant’s needs and sends you smart alerts before they get thirsty.",
+      "seen": "Assets/seen.png",
+      "star": "Assets/star.png",
+      "share": "Assets/share.png"
+
+    },
+    {
+      "projectName": "Taskify",
+      "description": "A clean to-do app with smart reminders.",
+      "seen": "Assets/seen.png",
+      "star": "Assets/star.png",
+      "share": "Assets/share.png"
+    },
+    {
+      "projectName": "Moodify",
+      "description": "A mood tracker with daily reflection prompts.",
+     "seen": "Assets/seen.png",
+      "star": "Assets/star.png",
+      "share": "Assets/share.png"
+    },
+    {
+      "projectName": "Readwise Clone",
+      "description": "A sleek interface for saving and organizing highlights.",
+     "seen": "Assets/seen.png",
+      "star": "Assets/star.png",
+      "share": "Assets/share.png"
+    },
+    {
+      "projectName": "FitLoop",
+      "description": "Coffee brewing timer with style presets that guides you through perfect brews for espresso, pour-over, and French press — all in one place.",
+  
+      "seen": "Assets/seen.png",
+      "star": "Assets/star.png",
+      "share": "Assets/share.png"
+    },
+    {
+      "projectName": "PlantPal",
+      "description": "Water reminder app for plant lovers.",
+      "seen": "Assets/seen.png",
+      "star": "Assets/star.png",
+      "share": "Assets/share.png"
+    },
+    {
+      "projectName": "BrewTime",
+      "description": "A visual budgeting tool for daily expenses that helps you plan, monitor, and manage your money with simple charts and instant updates.",  
+     "seen": "Assets/seen.png",
+      "star": "Assets/star.png",
+      "share": "Assets/share.png"
+    },
+    {
+      "projectName": "SnapBudget",
+      "description": "A visual budgeting tool for daily expenses.",
+      "seen": "Assets/seen.png",
+      "star": "Assets/star.png",
+      "share": "Assets/share.png"
+    },
+    {
+      "projectName": "ZenSketch",
+      "description": "Relaxing sketch pad with soft brushes.",
+      "seen": "Assets/seen.png",
+      "star": "Assets/star.png",
+      "share": "Assets/share.png"
+    }
+  ]
+  
