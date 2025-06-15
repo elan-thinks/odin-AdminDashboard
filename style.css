@@ -106,6 +106,11 @@ body{
     
 
 }
+.lowerHeader .btns button:hover{
+    transform: scale(1.06);
+    background-color: rgb(146, 228, 228);
+
+}
 
 .sidebar{  
     grid-row: 1/ 3;
@@ -161,7 +166,7 @@ body{
 }
 .sidebar .wrapper .cont-2 .cont-2-2{
     margin-top: 88px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 .menu-item{
@@ -177,7 +182,7 @@ body{
     display: grid;
     border-radius: 12px;
     grid-template-columns: 75% 25%;
-    background: rgb(14, 12, 12);
+    background: rgb(19, 21, 39);
 
 
 }
@@ -207,7 +212,7 @@ body{
     justify-content: center;
     color: white;
     border-bottom: none;
-    box-shadow: 2px 4px 10px rgb(82, 88, 86);
+    /* box-shadow: 2px 4px 10px rgb(82, 88, 86); */
     border-right: none;
     border-top: none;
     background: rgb(0, 0, 0);
@@ -403,7 +408,9 @@ body{
         grid-template-columns: 100%;
         grid-template-rows: 90% 10%;
         height: 670%;
-        background: rgb(0, 0, 0);
+        /* background: rgb(0, 0, 0); */
+        background: rgb(19, 21, 39);
+
 
     }
     .upperHeader-name{
@@ -483,7 +490,8 @@ body{
         margin-top: 99px;
         grid-template-rows: 90% 10%;
         height: 280%;
-        background: rgb(0, 0, 0);
+        
+
 
     }
     .upperHeader-name{
@@ -531,14 +539,14 @@ body{
 @media (min-width: 901px) and (max-width: 1575px) {
     .container{
         
-        grid-template-columns: 10% 90%;
+        grid-template-columns: 11% 90%;
         grid-template-rows: 20% 80%;
     }
    
     .board{
         grid-template-rows: 90% 10%;
-        height: 150%;
-        background: rgb(0, 0, 0);
+        height: 170%;
+        
 
     }
     .cards{

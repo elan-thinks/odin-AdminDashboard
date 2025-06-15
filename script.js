@@ -15,19 +15,24 @@ function JSONData() {
 
 function renderCards(projects) {
     const cards = document.querySelector('.cards');
-    cards.innerHTML = projects.map(project => `
-        <div class="card">
-            <div class="text">
-                <h3>${project.projectName}</h3>
-                <p>${project.description}</p>
+    const search = document.getElementById('search').value.toLowerCase();
+
+    cards.innerHTML = projects.map(project => {
+        const isMatch = search && project.projectName.toLowerCase().includes(search);
+        return `
+            <div class="card" style="${isMatch ? 'transform: scale(1.05); boxShadow: 0 0 40px white' : ''}">
+                <div class="text">
+                    <h3>${project.projectName}</h3>
+                    <p>${project.description}</p>
+                </div>
+                <div class="b-img">
+                    <img src="${project.star}" alt="star icon">
+                    <img src="${project.seen}" alt="seen icon">
+                    <img src="${project.share}" alt="share icon">
+                </div>
             </div>
-            <div class="b-img">
-                <img src="${project.star}" alt="star icon">
-                <img src="${project.seen}" alt="seen icon">
-                <img src="${project.share}" alt="share icon">
-            </div>
-        </div>
-    `).join('');
+        `;
+    }).join('');
 }
 
 function colorizeCards() {
@@ -41,3 +46,6 @@ function colorizeCards() {
 }
 
 JSONData();
+
+// OPTIONAL: Refresh cards on search input
+document.getElementById('search').addEventListener('input', JSONData);
